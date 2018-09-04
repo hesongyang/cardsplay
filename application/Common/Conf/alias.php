@@ -1,0 +1,2 @@
+<?php
+return array('PHPMailer' => SPAPP_PATH . 'Lib/Util/class.phpmailer.php', 'PclZip' => SPAPP_PATH . 'Lib/Util/Pclzip.class.php', "Dir" => SPAPP_PATH . 'Lib/Util/Dir.class.php', "Tree" => SPAPP_PATH . 'Lib/Util/Tree.class.php', "PathTree" => SPAPP_PATH . 'Lib/Util/PathTree.class.php', "Curl" => SPAPP_PATH . 'Lib/Util/Curl.class.php', "Page" => SPAPP_PATH . 'Lib/Util/Page.class.php', "phpQuery" => SPAPP_PATH . 'Lib/Extend/phpQuery/phpQuery.php', "ThinkOauth" => SPAPP_PATH . 'Lib/Extend/ThinkSDK/ThinkOauth.class.php', "PHPZip" => SPAPP_PATH . 'Lib/Util/phpzip.php'); 

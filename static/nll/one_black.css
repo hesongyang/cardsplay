@@ -1,0 +1,106 @@
+/* common */
+html:before {content: "";background: #000 url(../images/one_black/bg.jpg) no-repeat top center;background-size: cover;}
+/*html {background: #000}*/
+body {background: transparent;position: relative;z-index: 1 }
+
+input,input[type=text], input[type=password] {color:#c49c35;}
+input[type=text].style-input,.style-input,.style-textarea {color: rgba(255,255,255,.7);text-shadow: none;border: 1px solid #c49c35;background-color: #333;box-shadow: 0 0 10px #000 inset;}
+
+a.btn-empty,.btn-empty {font-size: 12px;padding: 10px 14px;color:#c49c35;text-shadow:none;border:1px solid #c49c35;background-color: #333;box-shadow: 0 0 10px #000 inset;border-radius: 6px;}
+.btn-gray-short,a.btn-gray-short {background-image: linear-gradient(to bottom,#fef8f7,#cc9e39);background-image: -webkit-linear-gradient(top,#fef8f7,#cc9e39);background-image: -moz-linear-gradient(top,#fef8f7,#cc9e39);background-image: -o-linear-gradient(top,#fef8f7,#cc9e39);background-image: -ms-linear-gradient(top,#fef8f7,#cc9e39);background-repeat: no-repeat;background-position: top center;background-size: 100% 100%;color: #000;padding: 10px 14px;color: #333;text-shadow: none;border: 0;box-shadow: none;font-weight: bold;border-radius: 6px;}
+.page-pagination a {background-image: linear-gradient(to bottom,#fef8f7,#cc9e39);background-image: -webkit-linear-gradient(top,#fef8f7,#cc9e39);background-image: -moz-linear-gradient(top,#fef8f7,#cc9e39);background-image: -o-linear-gradient(top,#fef8f7,#cc9e39);background-image: -ms-linear-gradient(top,#fef8f7,#cc9e39);background-repeat: no-repeat;background-position: top center;background-size: 100% 100%;color:#000;border-radius: 6px;}
+/* form */
+.btn-radios .btn-empty.active {background-image: url(../images/one_black/btn_checked.png) ;color:#fff;text-shadow:none;font-weight: bold;box-shadow: none;border-radius: 0}
+.btn-radio {display: none}
+.radio-item, .checkbox-item {border:1px solid #c49c35;background-color: #333;box-shadow: 0 0 10px #000 inset;}
+.radio-item:checked {background: url(../images/one_black/radio_checked.png) no-repeat;background-size: 100% auto;box-shadow: none;border:0;}
+.checkbox-item:checked {background: url(../images/one_black/box_checked.png) no-repeat;background-size: 100% auto;box-shadow: none;border:0;}
+.btn-confirm {background:url(../images/one_black/confirm_icon.png) no-repeat center bottom;background-size: 100% auto;}
+.form-row {padding-left: 0;margin:0 15px;}
+.form-row+.form-row:after {content: "";position: absolute;left: 0;top: 0;display: block;width: 100%;border-top: 1px dashed #ae5c1f;}
+
+/* header */
+.header-nav {background:url(../images/one_black/bg.jpg);background-repeat:no-repeat;background-position:center top;background-size: 100% auto;border-bottom: 1px solid #c49c35}
+.header-nav a.aui-active {    background-image: linear-gradient(to bottom,#fef8f7,#cc9e39);background-image: -webkit-linear-gradient(top,#fef8f7,#cc9e39);background-image: -moz-linear-gradient(top,#fef8f7,#cc9e39);background-image: -o-linear-gradient(top,#fef8f7,#cc9e39);background-image: -ms-linear-gradient(top,#fef8f7,#cc9e39);background-repeat: no-repeat;background-position: top center;background-size: 100% 100%;color: #000;padding:10px 14px;color:#333;text-shadow:none;border:0;box-shadow: none;font-weight: bold}
+/* footer */
+footer {background-color: transparent !important;background-image: url(../images/one_black/bg-nav.jpg?v=1.0.1);background-repeat: no-repeat;background-position: bottom center;background-size: 100% 100%;}
+footer a {padding-top: 4px;}
+footer a i {background-image:url(../images/one_black/nav_icons.png?v=1.0.1);}
+footer a.active {background:url(../images/one_black/nav_active.png) no-repeat;background-position: center bottom;background-size: 100% auto;}
+.nav-label {background-image: url(../images/one_black/nav_label.png?v=1.0.1);}
+.footer-back {background-color: transparent !important;background-image: url(../images/one_black/bg-nav.jpg?v=1.0.1);background-repeat: no-repeat;background-position: bottom center;background-size: 100% 100%;}
+.footer-back .back {background-image:url(../images/one_black/nav_icons.png?v=1.0.1);background-size: 294px auto;background-repeat: no-repeat;font-size: 0;background-position: -135px -136px}
+/* dialog */
+.aui-dialog {background-color:transparent;background-image: url(../images/one_black/dialog2.png);background-size: 100% 100%;border-radius: 0;}
+.aui-dialog div {color:#592f06;}
+.aui-dialog p,.aui-dialog label {font-size: 12px;color:#592f06;}
+.aui-dialog:before,.aui-dialog:after {content:"";display: block;position: absolute;width:100%;height: 21px;background-image: url(../images/one_black/dialog1.png);background-repeat: no-repeat;background-size: 100% 100%;}
+.aui-dialog:before {top:-21px;left:0;}
+.aui-dialog:after {bottom:-21px;left:0;-webkit-transform: rotateZ(180deg);-moz-transform: rotateZ(180deg);-ms-transform: rotateZ(180deg);-o-transform: rotateZ(180deg);transform: rotateZ(180deg);}
+.aui-dialog .btn-close {position: absolute;right: 20px;top: 0;z-index: 9;width: 30px;height: 30px;display: inline-block;background-image: url(../images/one_black/close.png);}
+.aui-dialog-bd {border-bottom-left-radius: 6px;border-bottom-right-radius: 6px;overflow: hidden;}
+.aui-dialog-bd .btn-radios {margin:0;}
+.btn-radios .btn-empty {background-image: url(../images/one_black/btn_radio.png);background-repeat:no-repeat;background-position: top center;background-size: 100% 100%;color:#d1b08b;border:0;box-shadow: none;border-radius: 0;background-color: transparent;}
+.dialog-row ul.aui-row .num-label {border-color: #ad5d1f;color: #ad5d1f;}
+.dialog-row ul.aui-row .num-label.active {color:#ffe41e;border-color: #ffe41e}
+.dialog-row ul.aui-grid {border-radius: 6px;}
+.dialog-row ul.aui-grid li:before,.dialog-row ul.aui-grid li:after {content:"";background:#ad5d1f;}
+.dialog-row ul.aui-grid li:nth-child(1):after,.dialog-row ul.aui-grid li:nth-child(2):after {background: linear-gradient(to bottom, transparent, #ad5d1f);background: -webkit-linear-gradient(top, transparent, #ad5d1f);background: -moz-linear-gradient(top, transparent, #ad5d1f);background: -o-linear-gradient(top, transparent, #ad5d1f);}
+.dialog-row ul.aui-grid li:nth-child(3n):before {background: linear-gradient(to left, transparent, #ad5d1f);background: -webkit-linear-gradient(right, transparent, #ad5d1f);background: -moz-linear-gradient(right, transparent, #ad5d1f);background: -o-linear-gradient(right, transparent, #ad5d1f);}
+.dialog-row ul.aui-grid li:nth-child(3n):after {background:transparent;}
+.dialog-row ul.aui-grid li:nth-child(3n+1):before {background: linear-gradient(to right, transparent, #ad5d1f);background: -webkit-linear-gradient(left, transparent, #ad5d1f);background: -moz-linear-gradient(left, transparent, #ad5d1f);background: -o-linear-gradient(left, transparent, #ad5d1f);}
+.dialog-row ul.aui-grid li:nth-child(10):after,.dialog-row ul.aui-grid li:nth-child(11):after {background: linear-gradient(to top, transparent, #ad5d1f);background: -webkit-linear-gradient(to top, transparent, #ad5d1f);background: -moz-linear-gradient(to top, transparent, #ad5d1f);background: -o-linear-gradient(to top, transparent, #ad5d1f);}
+.dialog-row ul.aui-grid li:nth-child(1):before,.dialog-row ul.aui-grid li:nth-child(2):before,.dialog-row ul.aui-grid li:nth-child(3):before {background:transparent;}
+.dialog-row .aui-grid [class*=aui-col-xs-]:active  {background-color:#ceb68b;}
+
+/* roomcard */
+.create-panel .create-btn {background-image: url(../images/one_black/round_btn.png);}
+/* feedback */
+.feedback-list {border-radius: .3rem;}
+.feedback-panel input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {color:rgba(255,255,255,.7);}
+.feedback-panel input:-moz-placeholder,textarea:-moz-placeholder {color:rgba(255,255,255,.7);}
+.feedback-panel input::-moz-placeholder,textarea::-moz-placeholder {color:rgba(255,255,255,.7);}
+.feedback-panel input:-ms-input-placeholder,textarea:-ms-input-placeholder {color:rgba(255,255,255,.7);}
+.feedback-panel .feedback-item .feedback-back {color: #c49c35;text-shadow: none;border: 1px solid #c49c35;background-color: #333;box-shadow: 0 0 10px #000 inset;border-radius: 6px;}
+.feedback-panel .b-btn {background:url(../images/one_black/round_btn_s.png) no-repeat center bottom;background-size: auto 100%;}
+/* discover */
+.room-record-list-item .room-record-btns a,.room-record-list .btn-gray-long {background-image: linear-gradient(to bottom,#fef8f7,#cc9e39);background-image: -webkit-linear-gradient(top,#fef8f7,#cc9e39);background-image: -moz-linear-gradient(top,#fef8f7,#cc9e39);background-image: -o-linear-gradient(top,#fef8f7,#cc9e39);background-image: -ms-linear-gradient(top,#fef8f7,#cc9e39);background-repeat: no-repeat;background-position: top center;background-size: 100% 100%;color:#000;border-radius: 6px;}
+/* currencyinfo */
+.currency-top .currency-top-ft a {background-image: linear-gradient(to bottom,#fef8f7,#cc9e39);background-image: -webkit-linear-gradient(top,#fef8f7,#cc9e39);background-image: -moz-linear-gradient(top,#fef8f7,#cc9e39);background-image: -o-linear-gradient(top,#fef8f7,#cc9e39);background-image: -ms-linear-gradient(top,#fef8f7,#cc9e39);background-repeat: no-repeat;background-position: top center;background-size: 100% 100%;color:#000;border-radius: 6px;}
+
+
+.hint-box {height: 240px}
+.hint-box p,.hint-box span,.hint-box a,.hint-box h1 {color:#c49c35;}
+.num-input-container .num-input-header h3 {color: #c49c35}
+.num-input-container,.hint-box,.phone-bind-section,.login_box,.userpackage-make-section {background: url(../images/one_black/dialog2.png);background-size: 100% 100%;}
+.num-input-container:before,.num-input-container:after,.hint-box:before,.hint-box:after,.phone-bind-section:before,.phone-bind-section:after,.login_box:before,.login_box:after,.userpackage-make-section:before,.userpackage-make-section:after {content:"";width: 100%;position: absolute;left: 0;right: 0;display: block;height:30px;background-image: url(../images/one_black/dialog1.png);background-repeat: no-repeat;background-size: 100% auto;background-position: center bottom;}
+.num-input-container:before,.hint-box:before,.phone-bind-section:before,.login_box:before,.userpackage-make-section:before {content:"";top: -30px;}
+.num-input-container:after,.hint-box:after,.phone-bind-section:after,.login_box:after,.userpackage-make-section:after {content:"";bottom: -30px;-webkit-transform: rotateZ(180deg);-moz-transform: rotateZ(180deg);-ms-transform: rotateZ(180deg);-o-transform: rotateZ(180deg);transform: rotateZ(180deg);}
+.login_box .phone-login {padding-top: 10px}
+.login_box .flex-item .weixin-img-box:after {content:"";background-image: url(../images/one_black/weixin-label.png);}
+.login_box .flex-item .qq-img-box:after {content:"";background-image: url(../images/one_black/qq-label.png);}
+.login_box .flex-item .mobile-img-box:after {content:"";background-image: url(../images/one_black/mobile-label.png);}
+.login_box .flex-item .guest-img-box:after {content:"";background-image: url(../images/one_black/guest-label.png);}
+.share-set-pass-container input,.num-input-container .num-input-form input,.phone-bind-section .phone-input input,.login_box input{background-color: #b59e7c;border-radius: 3px;}
+.share-set-pass-container input,.num-input-container .input-label-item label,.num-input-container .num-input-form input,.phone-bind-section .phone-input input,.login_box input[type=number]::-webkit-input-placeholder,.login_box input[type=text]::-webkit-input-placeholder { /* WebKit browsers */color:#4a340b;}
+.share-set-pass-container input,.num-input-container .num-input-form input,.phone-bind-section .phone-input input,.login_box input[type=number]:-moz-placeholder,.login_box input[type=text]:-moz-placeholder { /* Mozilla Firefox 4 to 18 */color:#4a340b;}
+.share-set-pass-container input,.num-input-container .num-input-form input,.phone-bind-section .phone-input input,.login_box input[type=number]::-moz-placeholder,.login_box input[type=text]::-moz-placeholder { /* Mozilla Firefox 19+ */color:#4a340b;}
+.share-set-pass-container input,.num-input-container .num-input-form input,.phone-bind-section .phone-input input,.login_box input[type=number]:-ms-input-placeholder,.login_box input[type=text]:-ms-input-placeholder { /* Internet Explorer 10+ */color:#4a340b;}
+.login_box .code-item a.get-code {background-image: url(../images/one_black/getcode.png);}
+.login_box .login-submit {background-image: url(../images/one_black/login_btn.png);}
+.login_box .back-entrance {background-image: url(../images/one_black/close.png);}
+.login_box .seccode-tip {color: #b59e7c}
+.hint-box.confirm-box a.hint-btn {width:100px;}
+.hint-box.confirm-box a.hint-btn,.phone-bind-section .phone-input.code-item a {background-image: url(../images/one_black/rec_btn.png);color: #e7d5ae;font-size: 14px}
+.num-input-container .num-input-form .num-input-submit,.phone-bind-section .phone-bind-confirm {background-image: url(../images/one_black/round_btn.png);color: #e7d5ae;font-weight: bold;margin-top:20px;}
+.share-set-pass-container .pass-submit {background-image: url(../images/one_black/confirm_icon.png);margin-top:20px;}
+.userpackage-make-section .style-input,.userpackage-make-section input[type=text].style-input {background-color: #b59e7c;border-radius: 3px;box-shadow:none;border:0;color:#4a340b;}
+/* 群功能 */
+.friend-list-hd .friend-switch.checked {background-color: #c49c35}
+.share-header {border-bottom: 1px solid #c49c35;}
+.share-member-panel .share-member-total,.share-member-panel .share-member-total-item {border-color:#c49c35;}
+.friend-list-hd .friend-hd-rbtn,.share-member-panel .share-member-top-tip a,.share-member-panel .share-member-list a{border-radius: 3px;border: 1px solid #c49c35;background-image: linear-gradient(to bottom,#fef8f7,#cc9e39);background-image: -webkit-linear-gradient(top,#fef8f7,#cc9e39);background-image: -moz-linear-gradient(top,#fef8f7,#cc9e39);background-image: -o-linear-gradient(top,#fef8f7,#cc9e39);color:#583000;}
+.share-member-panel.empty-list .share-member-middle a,.invite-btn {background-image: url(../images/one_black/round_btn.png);width:250px;}
+
+.phone-bind-panel p,.userpackage-make-panel p,.userpackage-make-panel span {color:#4a340b;}
+.userpackage-make-panel .create-btn {background-image: url(../images/one_black/round_btn_s.png);color:#e7d5ae;}

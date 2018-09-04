@@ -1,0 +1,65 @@
+.createRoom{position: fixed;width: 100%;height:100%;top:0;left:0;z-index: 109;}
+.createRoom .createRoomBack{width: 100%;height:100%;background: #000;opacity:0.6;}
+.createRoom .mainPart{width: 90vw;height:65vh;top:44%;left:10vw;margin-top:-30vh;margin-left: -5vw;position: absolute;}
+.createRoom .mainPart .createB{width: 100%;height:100%;top:0%;left:0%;position: absolute;background:#634fa6;border:1px solid #a684f2;border-radius:10px; }
+.createRoom .mainPart .createTitle{position:relative;height:5vh;text-align: center;}
+.createRoom .mainPart .createTitle img{position:relative;height:2.6vh;margin-top: 1.2vh;}
+.createRoom .mainPart .cancelCreate{width: 5vh;height:5vh;top:-2.5vh;right:-2.5vh;position: absolute;}
+.createRoom .mainPart .createCommit{position: absolute;line-height: 5.5vh;height: 5.5vh;font-size: 2.5vh;width: 17vh;left:50%;margin-left:-8.5vh;bottom:-7vh;text-align: center;background:url("http://goss.fexteam.com/files/d_10/images/game/button2.png");background-size:100%;color: #fff;}
+.createRoom .mainPart .blueBack{width: 85vw;height: 46vh;background:#111431;border:1px solid #a684f2;border-radius:4px;margin:0 auto;position: relative; }
+.createRoom .mainPart .blueBack .selectPart{width:100%;margin-top:4px;line-height:36px;font-size:2vh;position: relative;color:#111431;background:#bbbff1;border-radius:0px;font-family:simHei; }
+.createRoom .mainPart .blueBack .selectPart .selectTitle{float: left;width:8vh;text-align: right; }
+.createRoom .mainPart .blueBack .selectPart .selectList{float: left; width: 34vh}
+.createRoom .mainPart .blueBack .selectPart .selectList .selectItem{float: left;position:relative;margin-left:25px; }
+.createRoom .mainPart .blueBack .selectPart .selectList .selectItem .selectBox{float: left;height:2vh;width:2vh;border:1px solid #1d1045;border-radius:2px;background:#78899d;margin-top:0.7vh;position: relative; }
+.createRoom .mainPart .blueBack .selectPart .selectList .selectItem img{position: absolute;width: 2vh;height:2vh;left: 0;top:0.7vh;}
+.createRoom .mainPart .blueBack .selectPart .selectList .selectItem .selectText{float: left;margin-left: 0.8vh;}
+
+.prompt{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #f2463a;
+    font-size: 1rem;
+    border-radius: 4px;
+    overflow: hidden;
+    z-index:9999999999;
+}
+.prompt>span{
+    padding: .1rem .3rem;
+    display: inline-block;
+    color: #fff;
+}
+
+.gold-tag a.active {
+    color: #ecc200;
+}
+
+.gold-table {
+    width: 100%;
+}
+.gold-table th,.gold-table td {
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    padding: 3px;
+}
+.gold-table th {
+    color: #ecc200;
+}
+
+.gold-table td .btn1, .gold-table td .btn2 {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.gold-table td .btn1 {
+    background: url("/app/img/button1.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+.gold-table td .btn2 {
+    background: url("/app/img/button2.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}

@@ -1,0 +1,286 @@
+﻿html {
+	font-size: 62.5%;
+}
+body {
+	background: rgb(255, 255, 255); color: rgb(55, 55, 55); font-family: Microsoft YaHei,"Helvetica Neue",Helvetica,Arial,sans-serif; min-width: 320px;
+}
+h1 {
+	font-family: Microsoft YaHei,"Helvetica Neue",Helvetica,Arial,sans-serif; font-weight: normal;
+}
+h2 {
+	font-family: Microsoft YaHei,"Helvetica Neue",Helvetica,Arial,sans-serif; font-weight: normal;
+}
+h3 {
+	font-family: Microsoft YaHei,"Helvetica Neue",Helvetica,Arial,sans-serif; font-weight: normal;
+}
+h4 {
+	font-family: Microsoft YaHei,"Helvetica Neue",Helvetica,Arial,sans-serif; font-weight: normal;
+}
+h5 {
+	font-family: Microsoft YaHei,"Helvetica Neue",Helvetica,Arial,sans-serif; font-weight: normal;
+}
+h6 {
+	font-family: Microsoft YaHei,"Helvetica Neue",Helvetica,Arial,sans-serif; font-weight: normal;
+}
+.h1 {
+	font-family: Microsoft YaHei,"Helvetica Neue",Helvetica,Arial,sans-serif; font-weight: normal;
+}
+.h2 {
+	font-family: Microsoft YaHei,"Helvetica Neue",Helvetica,Arial,sans-serif; font-weight: normal;
+}
+.h3 {
+	font-family: Microsoft YaHei,"Helvetica Neue",Helvetica,Arial,sans-serif; font-weight: normal;
+}
+.h4 {
+	font-family: Microsoft YaHei,"Helvetica Neue",Helvetica,Arial,sans-serif; font-weight: normal;
+}
+.h5 {
+	font-family: Microsoft YaHei,"Helvetica Neue",Helvetica,Arial,sans-serif; font-weight: normal;
+}
+.h6 {
+	font-family: Microsoft YaHei,"Helvetica Neue",Helvetica,Arial,sans-serif; font-weight: normal;
+}
+body {
+	margin: 0px; padding: 0px;
+}
+div {
+	margin: 0px; padding: 0px;
+}
+p {
+	margin: 0px; padding: 0px;
+}
+span {
+	margin: 0px; padding: 0px;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+iframe {
+	margin: 0px; padding: 0px;
+}
+table {
+	margin: 0px; padding: 0px;
+}
+td {
+	margin: 0px; padding: 0px;
+}
+th {
+	margin: 0px; padding: 0px;
+}
+input {
+	margin: 0px; padding: 0px;
+}
+textarea {
+	margin: 0px; padding: 0px;
+}
+button {
+	margin: 0px; padding: 0px;
+}
+label {
+	margin: 0px; padding: 0px;
+}
+ul {
+	margin: 0px; padding: 0px;
+}
+ol {
+	margin: 0px; padding: 0px;
+}
+li {
+	margin: 0px; padding: 0px;
+}
+dl {
+	margin: 0px; padding: 0px;
+}
+dt {
+	margin: 0px; padding: 0px;
+}
+dd {
+	margin: 0px; padding: 0px;
+}
+h1 {
+	margin: 0px; padding: 0px;
+}
+h2 {
+	margin: 0px; padding: 0px;
+}
+h3 {
+	margin: 0px; padding: 0px;
+}
+h4 {
+	margin: 0px; padding: 0px;
+}
+h5 {
+	margin: 0px; padding: 0px;
+}
+h6 {
+	margin: 0px; padding: 0px;
+}
+blockquote {
+	margin: 0px; padding: 0px;
+}
+ul {
+	list-style-type: none;
+}
+ol {
+	list-style-type: none;
+}
+li {
+	list-style-type: none;
+}
+dl {
+	list-style-type: none;
+}
+em {
+	font-style: normal;
+}
+i {
+	font-style: normal;
+}
+dfn {
+	font-style: normal;
+}
+cite {
+	font-style: normal;
+}
+strong {
+	font-style: normal;
+}
+small {
+	font-style: normal;
+}
+a:link {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+a:visited {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+a:hover {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix {
+	
+}
+.clearfix::after {
+	line-height: 0; clear: both; display: table; content: "";
+}
+img {
+	width: 100%; display: block;
+}
+.wrap {
+	margin: 0px auto; max-width: 640px;
+}
+h3 {
+	background: rgb(38, 128, 216); margin: 1.3rem 0px; text-align: center; color: rgb(255, 255, 255); line-height: 4rem; font-size: 2.2rem;
+}
+.al_box {
+	margin: 1rem; 
+}
+.al_box h1 {
+	color: rgb(0, 0, 0); line-height: 2.4rem; font-size: 1.8rem;
+}
+.al_box .text {
+	margin: 1rem 0px; line-height: 2rem; font-size: 1.2rem;
+}
+.tips {
+	background: rgb(233, 244, 255); padding: 0.8rem; color: rgb(55, 55, 55); line-height: 2.3rem; font-size: 1.2rem; margin-top: 1rem;
+}
+.tips h5 {
+	font-size: 1.4rem;
+}
+.al_box dl {
+	width: 100%; overflow: hidden; margin-bottom: 0.5rem;
+}
+.al_box dt {
+	width: 100px; float: left;
+}
+.al_box dd {
+	font-size: 18px; margin-left: 60px;
+}
+.al_box dd img {
+	margin: 0px 0.2rem; width: 8%; vertical-align: middle; display: inline-block;
+}
+.al_box dd p {
+	color: rgb(153, 153, 153); margin-top: 1%;
+}
+.pinglun {
+	width: 100%; overflow: hidden; margin-bottom: 2rem;
+}
+.zan {
+	background: rgb(238, 238, 238); padding: 0px 0.5rem; color: rgb(153, 153, 153); line-height: 3rem; font-size: 1rem; border-top-color: rgb(207, 207, 207); border-bottom-color: rgb(207, 207, 207); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.pinglun li {
+	padding: 1rem 0px 1rem 1rem; overflow: hidden; border-bottom-color: rgb(207, 207, 207); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.pinglun dl {
+	width: 100%; overflow: hidden; margin-bottom: 0.5rem;
+}
+.pinglun dt {
+	width: 50px; float: left;
+}
+.pinglun dd {
+	font-size: 18px; margin-left: 60px;
+}
+.pinglun dd img {
+	margin: 0px 0.2rem; width: 8%; vertical-align: middle; display: inline-block;
+}
+.pinglun dd p {
+	color: rgb(153, 153, 153); margin-top: 1%;
+}
+.pinglun .pl {
+	padding: 0.1rem 0px 0.5rem; line-height: 1.8rem; font-size: 1.3rem; margin-left: 60px;
+}
+.pinglun .hf {
+	padding: 0.5rem 0px 0px; font-size: 1.2rem; margin-left: 60px; border-top-color: rgb(207, 207, 207); border-top-width: 1px; border-top-style: solid;
+}
+.pinglun .hf img {
+	margin: 0px 0.2rem; width: 8%; vertical-align: middle; display: inline-block;
+}
+.pinglun .hf span {
+	color: rgb(28, 97, 223);
+}
+.pinglun .pl img {
+	width: 90%;
+}
+
+@media only screen and (min-width:361px)
+{
+html {
+	font-size: 72% !important;
+}
+}
+@media only screen and (min-width:381px)
+{
+html {
+	font-size: 78% !important;
+}
+}
+@media only screen and (min-width:481px)
+{
+html {
+	font-size: 94% !important;
+}
+}
+@media only screen and (min-width:561px)
+{
+html {
+	font-size: 109% !important;
+}
+}
+@media only screen and (min-width:641px)
+{
+html {
+	font-size: 125% !important;
+}
+body {
+	margin: 0px auto; max-width: 640px;
+}
+}
+.telphone{display:block;position:fixed;right:2%;bottom:25%;z-index:100;cursor:pointer;}
+.guanzhu{display:block;position:fixed;right:2%;top:15%;z-index:100;cursor:pointer;}
+.guanzhu img{width:44px;height:44px;}
